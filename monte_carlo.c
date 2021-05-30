@@ -45,7 +45,7 @@ float mc_pi(int c)
   {
     float x=frandom();
     float y=frandom();
-    z=x*x+y*y;
+    float z=x*x+y*y;
     if(z<=1)
     {
       a++;
