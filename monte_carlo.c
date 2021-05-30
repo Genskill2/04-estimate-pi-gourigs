@@ -45,8 +45,8 @@ float mc_pi(int c)
   {
     float x=frandom();
     float y=frandom();
-    float z=x*x+y*y;
-    if(z<=1)
+    //float z=x*x+y*y;
+    if(sqrt(x*x+y*y)<1)
     {
       a++;
     }
